@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/pub_console.dir/main.cpp.o CMakeFiles/pub_console.dir/Publisher.cpp.o CMakeFiles/pub_console.dir/UserInput.cpp.o CMakeFiles/pub_console.dir/InputArguments.cpp.o  -o pub_console   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib -lopen62541 -lpthread 

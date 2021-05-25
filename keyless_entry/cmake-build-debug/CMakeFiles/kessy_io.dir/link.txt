@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/kessy_io.dir/kessy_io.cpp.o CMakeFiles/kessy_io.dir/Publisher.cpp.o CMakeFiles/kessy_io.dir/UserInput.cpp.o CMakeFiles/kessy_io.dir/InputArguments.cpp.o  -o kessy_io   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib -lopen62541 ../library/libopen62541.a -lpthread 

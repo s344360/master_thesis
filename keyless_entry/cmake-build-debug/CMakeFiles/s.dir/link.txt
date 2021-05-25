@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/s.dir/pubsub_subscribe_standalone.cpp.o CMakeFiles/s.dir/Publisher.cpp.o CMakeFiles/s.dir/UserInput.cpp.o CMakeFiles/s.dir/InputArguments.cpp.o  -o s   -L/usr/local/lib 

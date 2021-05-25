@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/publish.dir/subscribe_standalone_and_publish.cpp.o CMakeFiles/publish.dir/Publisher.cpp.o CMakeFiles/publish.dir/UserInput.cpp.o CMakeFiles/publish.dir/InputArguments.cpp.o  -o publish   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib ../library/libopen62541.a -lpthread 

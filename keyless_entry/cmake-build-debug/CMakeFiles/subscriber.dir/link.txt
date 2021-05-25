@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/subscriber.dir/door_handle.cpp.o CMakeFiles/subscriber.dir/Publisher.cpp.o CMakeFiles/subscriber.dir/UserInput.cpp.o CMakeFiles/subscriber.dir/InputArguments.cpp.o  -o subscriber   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib -lopen62541 ../library/libopen62541.a -lpthread 

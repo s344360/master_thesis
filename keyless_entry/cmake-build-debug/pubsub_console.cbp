@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pubsub_console"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/seadmin/keyless_entry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/seadmin/keyless_entry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/seadmin/keyless_entry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="door_modules">
+				<Option output="/home/seadmin/keyless_entry/cmake-build-debug/door_modules" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seadmin/keyless_entry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/open62541"/>
+					<Add directory="/usr/local/include/open62541/plugin"/>
+					<Add directory="/usr/local/include/open62541/posix"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 door_modules"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="door_modules/fast">
+				<Option output="/home/seadmin/keyless_entry/cmake-build-debug/door_modules" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seadmin/keyless_entry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/open62541"/>
+					<Add directory="/usr/local/include/open62541/plugin"/>
+					<Add directory="/usr/local/include/open62541/posix"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 door_modules/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BCM">
+				<Option output="/home/seadmin/keyless_entry/cmake-build-debug/BCM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seadmin/keyless_entry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/open62541"/>
+					<Add directory="/usr/local/include/open62541/plugin"/>
+					<Add directory="/usr/local/include/open62541/posix"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 BCM"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BCM/fast">
+				<Option output="/home/seadmin/keyless_entry/cmake-build-debug/BCM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seadmin/keyless_entry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/open62541"/>
+					<Add directory="/usr/local/include/open62541/plugin"/>
+					<Add directory="/usr/local/include/open62541/posix"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 BCM/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kessy_io">
+				<Option output="/home/seadmin/keyless_entry/cmake-build-debug/kessy_io" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seadmin/keyless_entry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/open62541"/>
+					<Add directory="/usr/local/include/open62541/plugin"/>
+					<Add directory="/usr/local/include/open62541/posix"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 kessy_io"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kessy_io/fast">
+				<Option output="/home/seadmin/keyless_entry/cmake-build-debug/kessy_io" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seadmin/keyless_entry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/open62541"/>
+					<Add directory="/usr/local/include/open62541/plugin"/>
+					<Add directory="/usr/local/include/open62541/posix"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 kessy_io/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="door_handle">
+				<Option output="/home/seadmin/keyless_entry/cmake-build-debug/door_handle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seadmin/keyless_entry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/open62541"/>
+					<Add directory="/usr/local/include/open62541/plugin"/>
+					<Add directory="/usr/local/include/open62541/posix"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 door_handle"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="door_handle/fast">
+				<Option output="/home/seadmin/keyless_entry/cmake-build-debug/door_handle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seadmin/keyless_entry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/open62541"/>
+					<Add directory="/usr/local/include/open62541/plugin"/>
+					<Add directory="/usr/local/include/open62541/posix"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 door_handle/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pub_console">
+				<Option output="/home/seadmin/keyless_entry/cmake-build-debug/pub_console" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seadmin/keyless_entry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/open62541"/>
+					<Add directory="/usr/local/include/open62541/plugin"/>
+					<Add directory="/usr/local/include/open62541/posix"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 pub_console"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pub_console/fast">
+				<Option output="/home/seadmin/keyless_entry/cmake-build-debug/pub_console" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seadmin/keyless_entry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/open62541"/>
+					<Add directory="/usr/local/include/open62541/plugin"/>
+					<Add directory="/usr/local/include/open62541/posix"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 pub_console/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UID_key">
+				<Option output="/home/seadmin/keyless_entry/cmake-build-debug/UID_key" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seadmin/keyless_entry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/open62541"/>
+					<Add directory="/usr/local/include/open62541/plugin"/>
+					<Add directory="/usr/local/include/open62541/posix"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 UID_key"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UID_key/fast">
+				<Option output="/home/seadmin/keyless_entry/cmake-build-debug/UID_key" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/seadmin/keyless_entry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/open62541"/>
+					<Add directory="/usr/local/include/open62541/plugin"/>
+					<Add directory="/usr/local/include/open62541/posix"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 UID_key/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/seadmin/keyless_entry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/seadmin/keyless_entry/BCM.cpp">
+			<Option target="BCM"/>
+		</Unit>
+		<Unit filename="/home/seadmin/keyless_entry/InputArguments.cpp">
+			<Option target="BCM"/>
+			<Option target="kessy_io"/>
+			<Option target="door_handle"/>
+			<Option target="pub_console"/>
+			<Option target="UID_key"/>
+		</Unit>
+		<Unit filename="/home/seadmin/keyless_entry/InputArguments.h">
+			<Option target="BCM"/>
+			<Option target="kessy_io"/>
+			<Option target="door_handle"/>
+			<Option target="pub_console"/>
+			<Option target="UID_key"/>
+		</Unit>
+		<Unit filename="/home/seadmin/keyless_entry/Publisher.cpp">
+			<Option target="BCM"/>
+			<Option target="kessy_io"/>
+			<Option target="door_handle"/>
+			<Option target="pub_console"/>
+			<Option target="UID_key"/>
+		</Unit>
+		<Unit filename="/home/seadmin/keyless_entry/Publisher.h">
+			<Option target="BCM"/>
+			<Option target="kessy_io"/>
+			<Option target="door_handle"/>
+			<Option target="pub_console"/>
+			<Option target="UID_key"/>
+		</Unit>
+		<Unit filename="/home/seadmin/keyless_entry/UID_key.cpp">
+			<Option target="UID_key"/>
+		</Unit>
+		<Unit filename="/home/seadmin/keyless_entry/UserInput.cpp">
+			<Option target="BCM"/>
+			<Option target="kessy_io"/>
+			<Option target="door_handle"/>
+			<Option target="pub_console"/>
+			<Option target="UID_key"/>
+		</Unit>
+		<Unit filename="/home/seadmin/keyless_entry/UserInput.h">
+			<Option target="BCM"/>
+			<Option target="kessy_io"/>
+			<Option target="door_handle"/>
+			<Option target="pub_console"/>
+			<Option target="UID_key"/>
+		</Unit>
+		<Unit filename="/home/seadmin/keyless_entry/door_handle.cpp">
+			<Option target="door_handle"/>
+		</Unit>
+		<Unit filename="/home/seadmin/keyless_entry/door_modules.cpp">
+			<Option target="door_modules"/>
+		</Unit>
+		<Unit filename="/home/seadmin/keyless_entry/kessy_io.cpp">
+			<Option target="kessy_io"/>
+		</Unit>
+		<Unit filename="/home/seadmin/keyless_entry/main.cpp">
+			<Option target="pub_console"/>
+		</Unit>
+		<Unit filename="/home/seadmin/keyless_entry/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

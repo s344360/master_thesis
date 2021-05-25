@@ -1,0 +1,14 @@
+animal_BinarySchema,15041,Variable
+animal_XmlSchema,15049,Variable
+AnimalSet,15026,Object
+AnimalSound,15025,DataType
+AnimalSound_Encoding_DefaultBinary,15040,Object
+AnimalSound_Encoding_DefaultJson,15056,Object
+AnimalSound_Encoding_DefaultXml,15048,Object
+AnimalSoundType,15022,VariableType
+AnimalType,15001,ObjectType
+Cat,15027,Object
+CatType,15009,ObjectType
+Dog,15033,Object
+DogType,15015,ObjectType
+MammalType,15003,ObjectType
